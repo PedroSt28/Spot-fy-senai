@@ -1,0 +1,66 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.cabeça {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    background-color: aqua;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.busca {
+    display: flex;
+    width: 40vw;
+    height: 100%;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.busca button {
+    width: 43px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 15px;
+    border: none;
+
+}
+
+.barra {
+    width: 100%;
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    height: 50%;
+    justify-content: center;
+
+}
+
+.barra i {
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 5%;
+    border-radius: 30px;
+    justify-content: center;
+}
+
+.barra input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+}
+
+.cabeça button {
+    width: 43px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 15px;
+    border: none;
+}
+
