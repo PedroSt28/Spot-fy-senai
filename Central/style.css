@@ -4,63 +4,255 @@
     box-sizing: border-box;
 }
 
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(17, 14, 14);
+}
+
+.all-d{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+
 .cabeça {
     display: flex;
     width: 100vw;
     height: 10vh;
-    background-color: aqua;
+    background-color: rgb(7, 6, 6);
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
+
 
 .busca {
-    display: flex;
-    width: 40vw;
+    width: 500px;
     height: 100%;
+    background-color: transparent;
+    display: flex;
     align-items: center;
-    background-color: blueviolet;
+    margin-left: 230px;
 }
 
-.busca button {
+
+.corretc {
     width: 43px;
     height: 40px;
     border-radius: 30px;
     font-size: 15px;
     border: none;
-
+    margin-left: 30px;
 }
 
-.barra {
-    width: 100%;
+.cabeça-direita {
     display: flex;
-    margin-left: 10px;
-    align-items: center;
-    height: 50%;
-    justify-content: center;
-
-}
-
-.barra i {
-    background-color: antiquewhite;
-    display: flex;
-    align-items: center;
+    width: 400px;
     height: 100%;
-    width: 5%;
-    border-radius: 30px;
-    justify-content: center;
+    background-color: transparent;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.load {
+    width: 150px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    color: gray;
 }
 
 .barra input {
-    width: 80%;
     padding: 10px;
+    width: 200%;
+    border-radius: 20px;
     border: none;
+
 }
 
-.cabeça button {
+.bot {
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bot button {
     width: 43px;
     height: 40px;
     border-radius: 30px;
     font-size: 15px;
     border: none;
+    background-color: transparent;
+    color: gray;
 }
 
+.user {
+    background-color: gray;
+    width: 43px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 15px;
+    border: none;
+    margin-right: 10px;
+}
+
+.left-side {
+    width: 22%;
+    height: 100%;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8px 8px 8px 8px;
+    border-radius: 5px;
+}
+
+.upper-side {
+    width: 95%;
+    height: 25%;
+    background-color: aqua;
+    margin-top: 8px;
+
+}
+
+.info {
+    width: 100%;
+    height: 50px;
+    background-color: darkorchid;
+    display: flex;
+    align-items: center;
+
+}
+
+.descrip {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: white;
+}
+
+.descrip i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(41, 38, 38);
+    color: gray;
+
+}
+
+.list {
+    width: 100%;
+    height: 50px;
+    background-color: coral;
+    display: flex;
+    align-items: center;
+}
+
+.list ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+}
+
+.list button{
+   
+    border-radius: 20px;
+    border: none;
+    padding: 5px;
+    background-color: rgb(116, 115, 115);
+    color: white;
+    width: 130%;
+
+}
+
+.search {
+    width: 100%;
+    height: 50px;
+    background-color: chartreuse;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.search input {
+    padding: 10px;
+    width: 80%;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(48, 43, 43)
+}
+
+.daw-side{
+     width: 95%;
+    height: 90%;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.music{
+    width: 100%;
+    height: 17%;
+    background-color: rgb(33, 20, 220);
+    margin:5px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+.music-dscr{
+    width: 97%;
+    height: 95%;
+    background-color: hotpink;
+    display: flex;
+    align-items: center;
+    color: white;
+    
+}
+
+.img{
+ width: 25%;
+ height: 100%;
+ background-image: url(/assets/botao-spot.jpg);
+ border-radius: 10px;
+ margin-right: 10px;
+}
+
+.center{
+    width: 55%;
+    height: 100%;
+    background-color: aqua;
+    margin: 8px 8px 8px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.C{
+    width: 90%;
+    height: 40%;
+    background-color: burlywood;
+    margin-top: 10px;
+}
+
+.C-upp{
+    width: 100%;
+    height: 46px;
+    background-color: crimson;
+}
