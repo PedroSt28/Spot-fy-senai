@@ -12,7 +12,7 @@ body {
     background-color: rgb(0, 0, 0);
 }
 
-.all-d{
+.all-d {
     display: flex;
     height: 100%;
     width: 100%;
@@ -127,7 +127,7 @@ body {
 .info {
     width: 100%;
     height: 50px;
-    background-color:  rgb(39, 38, 38);
+    background-color: rgb(39, 38, 38);
     display: flex;
     align-items: center;
 
@@ -158,7 +158,7 @@ body {
 .list {
     width: 100%;
     height: 50px;
-    background-color:  rgb(39, 38, 38);
+    background-color: rgb(39, 38, 38);
     display: flex;
     align-items: center;
 }
@@ -170,8 +170,8 @@ body {
     list-style: none;
 }
 
-.list button{
-   
+.list button {
+
     border-radius: 20px;
     border: none;
     padding: 5px;
@@ -184,7 +184,7 @@ body {
 .search {
     width: 100%;
     height: 50px;
-    background-color: rgb(39, 38, 38) ;
+    background-color: rgb(39, 38, 38);
     display: flex;
     align-items: center;
     color: white;
@@ -198,64 +198,176 @@ body {
     background-color: rgb(39, 38, 38);
 }
 
-.daw-side{
-     width: 95%;
+.daw-side {
+    width: 95%;
     height: 90%;
-    background-color:  rgb(39, 38, 38);
+    background-color: rgb(39, 38, 38);
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 10px;
 }
-.music{
+
+.music {
     width: 100%;
-    height: 17%;
-    background-color:  rgb(39, 38, 38);
-    margin:5px;
+    height: 15%;
+    margin: 5px;
     display: flex;
     justify-content: center;
-    align-items:center ;
+    align-items: center;
 }
 
-.music-dscr{
+.music-dscr {
     width: 97%;
     height: 95%;
-    background-color: rgb(39, 38, 38);
+    background-color: transparent;
     display: flex;
     color: white;
-    
+    margin-top: 3px;
 }
 
-.img{
- width: 25%;
- height: 100%;
- background-image: url(/assets/botao-spot.jpg);
- border-radius: 10px;
- margin-right: 10px;
+.img {
+    width: 20%;
+    height: 95%;
+    background-image: url(/assets/botao-spot.jpg);
+    border-radius: 10px;
+    margin-right: 10px;
 }
 
-.center{
+.center {
     width: 55%;
     height: 100%;
-   background: linear-gradient(to bottom, #3938a0, #0a0a0a);
+    background: linear-gradient(to bottom, #3938a0, #0a0a0a);
 
     margin: 8px 8px 8px 0;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     border-radius: 5px;
 }
 
-.C{
+.C {
     width: 90%;
-    height: 40%;
-    background-color: burlywood;
+    height: 50%;
+    background-color: transparent;
     margin-top: 10px;
 }
 
-.C-upp{
+.C-upp {
     width: 100%;
     height: 46px;
-    background-color: crimson;
+    background-color: transparent;
     display: flex;
     align-items: center;
+
+}
+
+.C-upp h4 {
+    width: 10%;
+    height: 20px;
+    margin-left: 20px;
+    background-color: rgb(196, 201, 214);
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.descrpt-center {
+    width: 100%;
+    height: 120%;
+    display: flex;
+
+
+
+}
+
+.music-dscr-center {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(39, 38, 38);
+    display: flex;
+    color: white;
+}
+
+.img-center {
+    width: 20%;
+    height: 95%;
+    background-image: url(/assets/botao-spot.jpg);
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.left-center {
+    width: 48%;
+    height: 100%;
+
+}
+
+.rigth-center {
+    width: 50%;
+    height: 100%;
+    margin-left: 5px;
+}
+
+.music-c {
+    width: 100%;
+    height: 15%;
+    background-color: rgba(255, 255, 255, 0.082);
+    /* cor semitransparente */
+    backdrop-filter: blur(10px);
+    /* aplica o desfoque no que está atrás */
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.daw-c {
+    width: 90%;
+    height: 40%;
+    background-color: transparent;
+    margin-top: 20px;
+    flex-direction: column;
+    display: flex;
+}
+
+.made-for {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    height: 15%;
+    margin-left: 8px;
+    margin-bottom: 20px;
+}
+
+.big-music {
+    width: 28%;
+    height: 100%;
+    display: flex;
+    margin-top: 5px;
+    flex-direction: column;
+}
+
+.big-music img {
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    margin: 0px 5px 0px 8px;
+}
+
+.big-music h5 {
+    color: antiquewhite;
+    margin-top: 3px;
+    text-align: start;
+    margin-left: 9px;
+
+}
+
+.musics-c{
+    display: flex;
+    width: 100%;
+    height: 100%;
 }
